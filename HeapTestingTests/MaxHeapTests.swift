@@ -10,10 +10,6 @@ import XCTest
 
 final class MaxHeapTests: XCTestCase {
     
-    func testHeapExists() {
-        let heap = MaxHeap<Int>()
-    }
-    
     func testHeapAddOneElement() {
         var heap = MaxHeap<Int>()
         heap.insert(5)

@@ -17,6 +17,10 @@
 		0D840EC7290BF59D00B4DDC2 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D840EC6290BF59D00B4DDC2 /* MinHeap.swift */; };
 		0D840EC9290BF5AC00B4DDC2 /* MinHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D840EC8290BF5AC00B4DDC2 /* MinHeapTests.swift */; };
 		0DA2190329018B1800630BB6 /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2190229018B1800630BB6 /* MaxHeap.swift */; };
+		0DBEABD92A0D576D0031C1D6 /* MaxIndexedHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEABD82A0D576D0031C1D6 /* MaxIndexedHeap.swift */; };
+		0DBEABDB2A0D5A2B0031C1D6 /* MaxIndexedHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEABDA2A0D5A2B0031C1D6 /* MaxIndexedHeapTests.swift */; };
+		0DBEABDD2A0D5F080031C1D6 /* MinIndexedHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEABDC2A0D5F080031C1D6 /* MinIndexedHeap.swift */; };
+		0DBEABDF2A0D5FAA0031C1D6 /* MinIndexedHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBEABDE2A0D5FAA0031C1D6 /* MinIndexedHeapTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		0D840EC6290BF59D00B4DDC2 /* MinHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
 		0D840EC8290BF5AC00B4DDC2 /* MinHeapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinHeapTests.swift; sourceTree = "<group>"; };
 		0DA2190229018B1800630BB6 /* MaxHeap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
+		0DBEABD82A0D576D0031C1D6 /* MaxIndexedHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxIndexedHeap.swift; sourceTree = "<group>"; };
+		0DBEABDA2A0D5A2B0031C1D6 /* MaxIndexedHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxIndexedHeapTests.swift; sourceTree = "<group>"; };
+		0DBEABDC2A0D5F080031C1D6 /* MinIndexedHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinIndexedHeap.swift; sourceTree = "<group>"; };
+		0DBEABDE2A0D5FAA0031C1D6 /* MinIndexedHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinIndexedHeapTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 			children = (
 				0D840EC6290BF59D00B4DDC2 /* MinHeap.swift */,
 				0DA2190229018B1800630BB6 /* MaxHeap.swift */,
+				0DBEABD82A0D576D0031C1D6 /* MaxIndexedHeap.swift */,
+				0DBEABDC2A0D5F080031C1D6 /* MinIndexedHeap.swift */,
 				0D808BB229017D45006C0638 /* AppDelegate.swift */,
 				0D808BB429017D45006C0638 /* SceneDelegate.swift */,
 				0D808BB629017D45006C0638 /* ViewController.swift */,
@@ -102,6 +112,8 @@
 			children = (
 				0D840EC8290BF5AC00B4DDC2 /* MinHeapTests.swift */,
 				0D808BC929017D47006C0638 /* MaxHeapTests.swift */,
+				0DBEABDA2A0D5A2B0031C1D6 /* MaxIndexedHeapTests.swift */,
+				0DBEABDE2A0D5FAA0031C1D6 /* MinIndexedHeapTests.swift */,
 			);
 			path = HeapTestingTests;
 			sourceTree = "<group>";
@@ -207,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBEABD92A0D576D0031C1D6 /* MaxIndexedHeap.swift in Sources */,
 				0DA2190329018B1800630BB6 /* MaxHeap.swift in Sources */,
 				0D808BB729017D45006C0638 /* ViewController.swift in Sources */,
+				0DBEABDD2A0D5F080031C1D6 /* MinIndexedHeap.swift in Sources */,
 				0D808BB329017D45006C0638 /* AppDelegate.swift in Sources */,
 				0D840EC7290BF59D00B4DDC2 /* MinHeap.swift in Sources */,
 				0D808BB529017D45006C0638 /* SceneDelegate.swift in Sources */,
@@ -219,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBEABDB2A0D5A2B0031C1D6 /* MaxIndexedHeapTests.swift in Sources */,
 				0D840EC9290BF5AC00B4DDC2 /* MinHeapTests.swift in Sources */,
+				0DBEABDF2A0D5FAA0031C1D6 /* MinIndexedHeapTests.swift in Sources */,
 				0D808BCA29017D47006C0638 /* MaxHeapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

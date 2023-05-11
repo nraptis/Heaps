@@ -10,10 +10,6 @@ import XCTest
 
 final class MinHeapTests: XCTestCase {
     
-    func testHeapExists() {
-        let heap = MinHeap<Int>()
-    }
-    
     func testHeapAddOneElement() {
         var heap = MinHeap<Int>()
         heap.insert(5)
