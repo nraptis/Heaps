@@ -69,7 +69,7 @@ struct MinHeap<Element: Comparable> {
     }
     
     var isEmpty: Bool {
-        data.count == 0
+        count == 0
     }
     
     mutating func remove(at index: Int) -> Element? {
