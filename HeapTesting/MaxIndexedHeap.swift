@@ -81,7 +81,7 @@ struct MaxIndexedHeap<Element: MaxHeapIndexedElement> {
     }
     
     var isEmpty: Bool {
-        data.count == 0
+        count == 0
     }
     
     mutating func remove(_ element: Element) {
